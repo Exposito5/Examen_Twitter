@@ -5,19 +5,20 @@
  */
 package Twitter_Ex;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.logging.Level;
-import twitter4j.DirectMessage;
-import twitter4j.Query;
-import twitter4j.QueryResult;
+import javax.swing.JOptionPane;
 import twitter4j.Status;
 import twitter4j.Twitter;
-import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
+import twitter4j.*;
+import twitter4j.auth.AccessToken;
+import twitter4j.auth.RequestToken;
 import twitter4j.conf.ConfigurationBuilder;
-
 /**
  *
  * @author artur
